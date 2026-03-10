@@ -1,0 +1,28 @@
+#experience {
+    background-color: rgb(12, 25, 48);
+    color: aliceblue;
+    border-bottom: 1px solid white;
+    width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .experience-certificate {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0ef;
+  }
+  
+  .experience-details h4 {
+    color: #00eeff;
+  }
+  
+  .experience-description {
+    color: #cbd5e1;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  

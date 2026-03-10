@@ -1,0 +1,40 @@
+.certificate-section {
+    background-color: rgb(12, 25, 48);
+    color: aliceblue;
+    border-top: 1px solid white;
+  }
+  
+  .certificate-card {
+    background-color: rgb(12, 25, 48); /* Match background color */
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .certificate-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    color: #00eeff;
+  }
+  
+  .btn-dark {
+    background-color: #0ef;
+    color: #081b29;
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    transition: 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background: #0ef;
+    box-shadow: 0 0 10px cyan, 0 0 50px cyan, 0 0 100px cyan;
+    color: #000;
+  }
+  

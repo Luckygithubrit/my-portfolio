@@ -1,0 +1,28 @@
+.hackathon-section {
+    background-color: rgb(12, 25, 48);
+    color: aliceblue;
+    border-top: 1px solid white;
+  }
+  
+  .hackathon-card {
+    background-color: rgb(17, 32, 61);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    padding: 15px;
+  }
+  
+  .hackathon-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-title {
+    color: #00eeff;
+    font-weight: bold;
+  }
+  
+  .event-description {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  

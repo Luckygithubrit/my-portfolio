@@ -1,0 +1,92 @@
+/* src/components/Projects.css */
+
+#projects {
+    background-color: rgb(12, 25, 48);
+    color: aliceblue;
+    border-bottom: 1px solid white;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+  
+  .project-card {
+    background-color: transparent;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+                1px 1px 40px #0053b8f7;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00eeff;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+  }
+  
+  .btn-dark {
+    background-color: #0ef;
+    color: #081b29;
+    border: none;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 0 5px #0ef,
+                0 0 25px #0ef;
+    transition: 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background: #0ef;
+    box-shadow: 0 0 10px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 20px cyan;
+    color: #000;
+  }
+  
+  /* Optional title styling (if not already in global css) */
+  .sub-title {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    cursor: pointer;
+  }
+  
+  .sub-title span {
+    color: #0ef;
+  }
+
+  .project-boxes {
+    padding: 15px; /* adds spacing around each project card */
+  }
+  

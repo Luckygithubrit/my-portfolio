@@ -1,0 +1,21 @@
+.research-section {
+    background-color: #081b29;
+    color: aliceblue;
+    border-top: 1px solid white;
+  }
+  
+  .research-title {
+    color: #00eeff;
+    font-weight: bold;
+  }
+  
+  .research-description {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  .research-image {
+    max-height: 400px;
+    border-radius: 15px;
+  }
+  
