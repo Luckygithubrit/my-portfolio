@@ -5,6 +5,12 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Stranger things',
+    image: 'assets/stranger-things-season-5-poster-3840x2160-34078.jpg',
+    description: 'crazy web application that include stylish charcters of stranger things',
+    github: 'https://github.com/Luckygithubrit/stranger-things-crazy-.git',  // Replace with correct URL
+  },
+  {
     title: 'Restaurant Web Application',
     image: '/assets/restaurent.png',
     description: 'A responsive website for restaurant ordering and menu display built using HTML, CSS, and JavaScript.',
