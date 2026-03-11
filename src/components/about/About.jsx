@@ -24,7 +24,7 @@ const About = () => {
 
       <div className="text-center mt-4">
           <a
-            href="/lucky-cv.pdf"
+            href="modified 4.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
